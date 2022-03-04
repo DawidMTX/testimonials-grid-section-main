@@ -9,3 +9,78 @@
     --light-grayish-blue:hsl(210, 46%, 95%);
 }
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 88%;
+    min-width: 19rem;
+    max-width: 69rem;
+    margin: 70px auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+            "first-area"
+            "first-area"
+            "second-area"
+            "third-area"
+            "fourth-area"
+            "fourth-area"
+            "fifth-area"
+            "fifth-area";
+    grid-gap:20px;
+    font-family:  var(--body-font);
+}
+
+.container-1{
+    background-color: var(--moderate-violet);
+    background-image: url(/images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-position-x: 90%;
+    border-radius: 10px;
+    padding: 25px 30px 30px 35px;
+    color: white;
+}
+
+.container-1__person__image{
+    display: inline-block;
+    float: left;
+    width: 30px;
+    height: 30px;
+    background-image: url(/images/image-daniel.jpg);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    border-radius: 30px;
+    border: 1px solid rgb(160, 119, 233);
+}
+
+.container-1__person__name
+{
+    font-size: 0.8rem;
+    margin-left: 45px;
+    
+}
+.container-1__person__verified{
+    font-size: 0.7rem;
+    margin-left: 45px;
+    opacity: 50%;
+}
+
+.container-1__description{
+    margin-top: 15px;
+    font-size: 1.3rem;
+    line-height: 25px;
+}
+
+.container-1__quote{
+    margin-top: 13px;
+    margin-right: 10px;
+    font-size: 0.85rem;
+    line-height: 18px;
+    opacity: 70%;
+}
