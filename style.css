@@ -150,3 +150,59 @@ main{
     opacity: 70%;
 }
 
+@media only screen and (min-width:1024px){
+
+    main{
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: 
+            "first-area first-area second-area fifth-area"
+            "third-area fourth-area fourth-area fifth-area";
+            grid-gap: 30px;
+    }
+
+    .container-1{
+        background-position-x: 80%;
+        padding:28px;
+    }
+    .container-2__quote{
+        font-size: 0.8rem;
+    }
+    .container-3__quote,
+    .container-4__quote,
+    .container-5__quote{
+        margin-top: 18px;
+        font-size: 0.8rem;
+    }
+    .container-5__quote{
+        font-size: 0.8rem;
+    }
+}
+@media only screen and (min-width:1430px){
+
+    main{
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: 
+            "first-area first-area second-area fifth-area"
+            "third-area fourth-area fourth-area fifth-area";
+            grid-gap: 30px;
+    }
+
+    .container-1{
+        background-position-x: 80%;
+        padding:28px;
+    }
+    .container-2__quote{
+        font-size: 0.8rem;
+    }
+    .container-3__quote,
+    .container-4__quote,
+    .container-5__quote{
+        margin-top: 18px;
+        font-size: 0.8rem;
+    }
+    .container-5__quote{
+        font-size: 0.8rem;
+    }
+}
