@@ -91,21 +91,21 @@ main{
     border-radius: 30px;
 }
 .container-1__person__image{
-    background-image: url(/images/image-daniel.jpg);
+    background-image: url(images/image-daniel.jpg);
     border: 1px solid rgb(160, 119, 233);
 }
 .container-2__person__image{
-    background-image: url(/images/image-jonathan.jpg);    
+    background-image: url(images/image-jonathan.jpg);    
 }
 .container-3__person__image{
-    background-image: url(/images/image-jeanette.jpg);
+    background-image: url(images/image-jeanette.jpg);
 }
 .container-4__person__image{
-    background-image: url(/images/image-patrick.jpg);
+    background-image: url(images/image-patrick.jpg);
     border: 1px solid rgb(160, 119, 233);
 }
 .container-5__person__image{
-    background-image: url(/images/image-kira.jpg);
+    background-image: url(images/image-kira.jpg);
 }
 
 .container-1__person__name,
