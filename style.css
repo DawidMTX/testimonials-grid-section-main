@@ -39,7 +39,7 @@ main{
 .container-1{
     grid-area: first-area;
     background-color: var(--moderate-violet);
-    background-image: url(/images/bg-pattern-quotation.svg);
+    background-image: url(images/bg-pattern-quotation.svg);
     background-repeat: no-repeat;
     background-position: top right;
     background-position-x: 90%;
