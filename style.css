@@ -186,7 +186,8 @@ main{
         grid-template-areas: 
             "first-area first-area second-area fifth-area"
             "third-area fourth-area fourth-area fifth-area";
-            grid-gap: 30px;
+        grid-gap: 30px;
+        margin:165px auto;
     }
 
     .container-1{
